@@ -1,0 +1,58 @@
+body{
+	background-color: #FFE8E8 ;
+	font-family: "微軟正黑體";
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+p{
+	font-size: 30;
+	text-align: center;
+}
+#btnplace{
+	text-align: center;
+}
+.btn{
+	font-size: 20px;
+	background-color: white;
+}
+#gohomediv{
+	text-align: right;
+}
+#containerB{
+	height: 300px;
+	width: 100%;
+}
+#class{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#name{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.mainContent{
+	border-style: solid;
+	box-sizing: border-box;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buttonstyle{
+	width: 25%;
+	height: 30%;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+

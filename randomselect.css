@@ -1,0 +1,79 @@
+#containerA{
+	height: 150px;
+	width: 100%;
+}
+#pickType{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#seat{
+	width: 40%;
+	height: 100%;
+	float: left;
+}
+#id{
+	width: 30%;
+	height: 100%;
+	float: left;
+}
+#containerB{
+	height: 300px;
+	width: 100%;
+}
+#class{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#name{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+#name{
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+.mainContent{
+	border-style: solid;
+	box-sizing: border-box;
+	font-size: 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.buttonstyle{
+	width: 25%;
+	height: 30%;
+	font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

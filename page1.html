@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>第一題</title>
+	<link rel="stylesheet" type="text/css" href="page1.css">
+	<script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+	<div id="gohomediv">
+		<a href="main.html">回到主頁</a>
+	</div>
+	<div>
+		<h1>第一題</h1>
+	</div>
+	<div>
+		<p>天氣預報提醒</p>
+		<p style="font-size: 15px;">請選擇天氣狀態:</p>
+	</div>
+	<form method="POST" action="weather.php" style="text-align: center;">
+		<select name="weather[]" size="4" multiple="multiple">
+			<option value="雨天">雨天</option>
+			<option value="陰天">陰天</option>
+			<option value="晴天">晴天</option>
+			<option value="不知道">不知道</option>
+		</select><br>
+		<input type="submit" value="送出資料">
+	<div id="btnplace">
+		<button class="btn" onclick="goPage1()">第一題</button>
+		<button class="btn" onclick="goPage2()">第二題</button>
+		<button class="btn" onclick="goPage3()">第三題</button>
+		<button class="btn" onclick="goPage4()">第四題</button>
+	</div>
+</body>
+</html>
